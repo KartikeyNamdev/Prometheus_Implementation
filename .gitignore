@@ -1,0 +1,59 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+.build/
+.out/
+*.tsbuildinfo
+
+# =========================
+# TypeScript
+# =========================
+tsconfig.tsbuildinfo
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Prometheus
+# =========================
+data/
+prometheus-data/
+wal/
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-compose.override.yml
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Git
+# =========================
+.git/
